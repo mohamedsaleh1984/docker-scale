@@ -1,4 +1,7 @@
 --To run the app
 node app.js
 
+--To run conatiner
+docker compose up
 
+--
