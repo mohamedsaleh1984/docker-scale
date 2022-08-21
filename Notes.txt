@@ -1,7 +1,16 @@
---To run the app
+#To run the app
 node app.js
 
---To run conatiner
+#To run conatiner
 docker compose up
 
---
+#Scale flag
+docker compose up --scale api=2
+
+#remove the conatiner name 
+#remove the ports from api
+
+#add ngnix server
+#Map the config file from the local machine to the conatiner
+#added nginx config file
+docker compose up --scale api=2
